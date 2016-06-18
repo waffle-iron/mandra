@@ -12,4 +12,6 @@ gulp.task('watch', () => {
   gulp.watch([paths.src.css.glob], ['build:css', 'lint:css'])
 })
 
-gulp.task('default', ['build:css', 'lint:css', 'watch'])
+gulp.task('buildCSS', ['build:css', 'lint:css'])
+
+gulp.task('default', ['buildCSS', 'watch'])

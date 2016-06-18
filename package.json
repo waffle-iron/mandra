@@ -4,7 +4,7 @@
   "description": "Mandra is a modern responsive CSS framework inspirated by Trello",
   "main": "css/mandra.css",
   "scripts": {
-    "test": "test"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
