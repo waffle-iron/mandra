@@ -1,0 +1,22 @@
+{
+  "name": "mandra",
+  "version": "0.1.0",
+  "description": "Mandra is a modern responsive CSS framework inspirated by Trello",
+  "main": "css/mandra.css",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rands0n/mandra.git"
+  },
+  "author": "Randson Oliveira <orandson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rands0n/mandra/issues"
+  },
+  "homepage": "https://github.com/rands0n/mandra#readme",
+  "dependencies": {
+    "normalize.css": "^4.1.1"
+  }
+}
