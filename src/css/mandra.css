@@ -1,1 +1,6 @@
 @import "normalize.css";
+
+/** Atoms */
+@import "atoms/button";
+
+@import "atoms/typography/typography";

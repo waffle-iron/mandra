@@ -1,3 +1,28 @@
 {
+  "color-neutral": "#ffffff",
+  "color-primary": "#3b83c0",
+  "color-warning": "#e07b53",
+  "color-success": "#5bbd72",
+  "color-danger": "#d95c5c",
+  "color-info": "#00b5ad",
 
+  "color-text": "#333333",
+  "color-default": "#4d4d4d",
+  "color-default-dark": "#666666",
+  "color-default-darker": "#333333",
+  "color-default-light": "#e5e5e5",
+  "color-default-lighter": "#f8f8f8",
+
+
+  "default-font-size": "16px",
+  "default-font-family": "Helvetica, Arial, sans-serif",
+
+  "breakpoint-xs": "480px",
+  "breakpoint-sm": "768px",
+  "breakpoint-md": "960px",
+  "breakpoint-lg": "1120px",
+  "breakpoint-xl": "1280px",
+
+  "columns": "12",
+  "gutter-width": "20px"
 }

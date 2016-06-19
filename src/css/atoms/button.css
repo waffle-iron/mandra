@@ -1,0 +1,73 @@
+.btn {
+  border: 0;
+  border-radius: .3em;
+  box-shadow: 0 1px rgba(149, 157, 161, .7);
+  color: $color-default;
+  cursor: pointer;
+  display: inline-block;
+  font-size: .875rem;
+  font-weight: bold;
+  margin-bottom: .3125rem;
+  outline: 0;
+
+  padding-bottom: .75rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: .75rem;
+
+  position: relative;
+  text-decoration: none;
+
+  &-default {
+    $default-color: rgba(237, 239, 240, 1);
+    $default-color-variant: rgba(226, 228, 230, 1);
+
+    background: linear-gradient(to bottom, $default-color 0%, $default-color-variant 100%);
+
+    &:hover {
+      background: color($default-color blackness(15%));
+    }
+
+    &:focus {
+      background: color($default-color blackness(25%));
+    }
+  }
+
+  @each $color in primary, danger, warning, info {
+    &-$(color) {
+      background: linear-gradient(to bottom, $color-$(color) 0%, color($color-$(color) a(85%)) 100%);
+      color: $color-neutral;
+
+      &:hover {
+        background: color($color-$(color) blackness(25%));
+      }
+
+      &:focus {
+        background: color($color-$(color) blackness(40%));
+      }
+    }
+  }
+
+  &-transparent {
+    background: rgba(196, 201, 204, .3);
+    box-shadow: 0 1px rgba(149, 157, 161, .7);
+    color: $color-default;
+    font-weight: normal;
+
+    &:hover {
+      background: color(rgba(196, 201, 204, .3) blackness(25%));
+    }
+
+    &:focus {
+      background: color(rgba(196, 201, 204, .3) blackness(40%));
+    }
+  }
+
+  &[disabled] {
+    background-color: $color-default-light;
+    box-shadow: none;
+    color: color($color-default a(50%));
+    cursor: not-allowed;
+    font-weight: 300;
+  }
+}
