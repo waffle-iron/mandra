@@ -1,0 +1,9 @@
+html {
+  font-size: $default-font-size;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: $color-text;
+  font-family: $default-font-family;
+}

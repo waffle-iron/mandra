@@ -15,7 +15,7 @@
 
 
   "default-font-size": "16px",
-  "default-font-family": "Helvetica, Arial, sans-serif",
+  "default-font-family": "Helvetica Neue, Arial, sans-serif",
 
   "breakpoint-xs": "480px",
   "breakpoint-sm": "768px",

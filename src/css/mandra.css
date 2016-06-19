@@ -4,3 +4,6 @@
 @import "atoms/button";
 
 @import "atoms/typography/typography";
+
+@import "atoms/utils/circular";
+@import "atoms/utils/rounded";
