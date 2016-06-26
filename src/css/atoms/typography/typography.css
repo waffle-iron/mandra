@@ -6,4 +6,6 @@ html {
 body {
   color: $color-text;
   font-family: $default-font-family;
+  font-size: $default-font-size;
+  line-height: $default-line-height;
 }
